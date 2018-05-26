@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="hiiaka"  fetch="git://github.com/hiiaka" />
+    <remote name="yocto"   fetch="git://git.yoctoproject.org" />
+    <remote name="xilinx"  fetch="git://github.com/xilinx"/>
+
+    <default sync-j="4"/>
+
+    <project remote="yocto"   revision="refs/heads/rocko" name="poky" />
+
+    <project remote="hiiaka"  revision="master"           name="meta-xilinx"       path="poky/meta-xilinx" />
+    <project remote="xilinx"  revision="rel-v2018.1"      name="meta-xilinx-tools" path="poky/meta-xilinx-tools" />
+
+</manifest>
+
