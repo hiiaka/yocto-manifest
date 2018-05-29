@@ -9,8 +9,8 @@
 
     <project remote="yocto"   revision="refs/heads/rocko" name="poky" />
 
-    <project remote="xilinx"  revision="master"      name="meta-xilinx"       path="poky/meta-xilinx" />
-    <project remote="xilinx"  revision="master"      name="meta-xilinx-tools" path="poky/meta-xilinx-tools" />
+    <project remote="xilinx"  revision="rel-v2018.1"      name="meta-xilinx"       path="poky/meta-xilinx" />
+    <project remote="xilinx"  revision="rel-v2018.1"      name="meta-xilinx-tools" path="poky/meta-xilinx-tools" />
 
 </manifest>
 
