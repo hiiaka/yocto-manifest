@@ -3,14 +3,15 @@
 
     <remote name="hiiaka"  fetch="git://github.com/hiiaka" />
     <remote name="yocto"   fetch="git://git.yoctoproject.org" />
+    <remote name="oe"      fetch="git://git.openembedded.org" />
     <remote name="xilinx"  fetch="git://github.com/xilinx"/>
 
     <default sync-j="4"/>
 
-    <project remote="yocto"   revision="refs/heads/rocko" name="poky" />
-
-    <project remote="hiiaka"  revision="master"           name="meta-xilinx"       path="poky/meta-xilinx" />
-    <project remote="xilinx"  revision="rel-v2018.1"      name="meta-xilinx-tools" path="poky/meta-xilinx-tools" />
+    <project remote="yocto"   revision="refs/heads/sumo" name="poky" />
+    <project remote="oe"      revision="refs/heads/sumo" name="meta-openembedded" path="poky/meta-openembedded" />
+    <project remote="xilinx"  revision="master"          name="meta-xilinx"       path="poky/meta-xilinx" />
+    <project remote="xilinx"  revision="master"          name="meta-xilinx-tools" path="poky/meta-xilinx-tools" />
 
 </manifest>
 
