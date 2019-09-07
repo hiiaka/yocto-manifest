@@ -8,8 +8,8 @@
 
     <default sync-j="4"/>
 
-    <project remote="yocto"   revision="refs/heads/thud" name="poky" />
-    <project remote="oe"      revision="refs/heads/thud" name="meta-openembedded" path="poky/meta-openembedded" />
+    <project remote="yocto"   revision="refs/heads/warrior" name="poky" />
+    <project remote="oe"      revision="refs/heads/warrior" name="meta-openembedded" path="poky/meta-openembedded" />
     <project remote="xilinx"  revision="master"          name="meta-xilinx"       path="poky/meta-xilinx" />
     <project remote="xilinx"  revision="master"          name="meta-xilinx-tools" path="poky/meta-xilinx-tools" />
 
